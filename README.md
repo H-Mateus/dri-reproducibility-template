@@ -1,2 +1,5 @@
-# dri-reproducibility-template
-A standardised project template for incorporating best practices in reporducibility
+# A template for reproducible research projects
+
+A standardised project template for incorporating best practices in reproducibility.
+
+
