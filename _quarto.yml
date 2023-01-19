@@ -1,0 +1,20 @@
+project:
+  title: "Example quarto project"
+  output-dir: _output
+
+#toc: true
+#number-sections: true
+#bibliography: references.bib
+
+format:
+  html:
+    theme:
+      dark: darkly
+      light: flatly
+    #css: styles.css
+    toc: true
+    number-sections: true
+    code-fold: true
+    code-tools: true
+    code-link: true
+    self-contained: false
