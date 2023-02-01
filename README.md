@@ -12,9 +12,10 @@ I'm organising my own thoughts on [issues](https://github.com/H-Mateus/dri-repro
 ## A rough roadmap
 
 - Establish a sensible directory structure with documentation for file naming conventions
+- Figure out all the continuous integrations to include (and how to make them work :sweat_smile:)
 - Document the timeline of a project (planning > registered report > apply for funding > preprint > peer-review)
-- Find someone to actually use the template with a real project (ideally not an bioinformatician!)
-- Have project going perfectly > use as showcase
+- Find someone to actually use the template with a real project (ideally not a bioinformatician!)
+- Have project go perfectly to publication > use as showcase
 - ???
 - Profit :stuck_out_tongue:
 
