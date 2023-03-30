@@ -1,0 +1,19 @@
+name: Lint file and directory names # name of the action (displayed in the github interface)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  lint-names:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Lint names
+        uses: jonathanmorley/lint-filenames-action@v1.0
+        with:
+          exclude: .git,node_modules
+          directory-regex: '^\d{2}-[a-z\d]+.*$' # directories should start with at least 2 digits
+          file-regex: '^(?:\d{4}-\d{2}-\d{2}|^\d{2})_[a-z\d]+.*$' # files should start with either a ISO standard date or at least 2 digits
