@@ -14,8 +14,8 @@ jobs:
       - name: Lint names
         uses: scheduleonce/lint-filenames@v2.0.0
         with:
-          path: './'
-          pattern: '^(?:\d{4}-\d{2}-\d{2}|^\d{2})_[a-z\d]+.*$' # files should start with either a ISO standard date or at least 2 digits
+          path: './04_data_analysis'
+          pattern: '^(?:\\d{4}-\\d{2}-\\d{2}|^\\d{2})_[a-z\\d]+.*$' # files should start with either a ISO standard date or at least 2 digits
         # with:
         #   exclude: .git,node_modules
         #   directory-regex: '^\d{2}-[a-z\d]+.*$' # directories should start with at least 2 digits
