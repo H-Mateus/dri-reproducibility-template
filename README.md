@@ -13,7 +13,7 @@ I'm organising my own thoughts on [issues](https://github.com/H-Mateus/dri-repro
 
 - Establish a sensible directory structure with documentation for file naming conventions
 - Figure out all the continuous integrations to include (and how to make them work :sweat_smile:)
-- Document the timeline of a project (planning > registered report > apply for funding > preprint > peer-review)
+- Document the timeline of a project (planning > registered report > apply for funding > preprint > peer-reviewed publication (in a [diamond open-access journal](https://www.scienceeurope.org/our-priorities/open-access/diamond-open-access/) if I have anything to say about it!))
 - Find someone to actually use the template with a real project (ideally not a bioinformatician!)
 - Have project go perfectly to publication > use as showcase
 - ???
