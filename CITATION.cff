@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: DRI Reproducibility template
+version: 1.0.0
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Gabriel Mateus
+    family-names: Bernardo Harrington
+    email: bernardo-harringtong@cardiff.ac.uk
+    affiliation: Cardiff University
+    orcid: 'https://orcid.org/0000-0001-6075-3619'
+repository-code: 'https://github.com/H-Mateus/dri-reproducibility-template'
+repository-artifact: 'https://github.com/H-Mateus/dri-reproducibility-template'
+abstract: >-
+  A template repository to assist in the adoption of
+  reproducible practices for research projects
+keywords:
+  - Reproducibility
+license: GPL-3.0
