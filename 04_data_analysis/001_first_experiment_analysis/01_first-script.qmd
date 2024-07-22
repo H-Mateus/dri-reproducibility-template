@@ -8,15 +8,16 @@ Here is some prose.
 Maybe you'd read in data and do some basic data wrangling here.
 
 ```{r}
-#| label: tbl-example
-#| tbl-cap: Table example
-gt::gt(head(iris))
-```
-
-```{r}
 #| label: fig-example
 #| fig-cap: Figure example
 plot(cars$speed, cars$dist)
 ```
 
-See @fig-example and @tbl-example
+```{r}
+#| label: tbl-example2
+#| tbl-cap: "A table made in another notebook"
+
+data.frame(letters = letters[1:3], numbers = 1:3) |>
+  knitr::kable()
+```
+

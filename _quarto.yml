@@ -1,20 +1,25 @@
 project:
-  title: "Example quarto project"
+  type: manuscript
   output-dir: _output
+  render: 
+    - "*.qmd"
+    # Here's how you would exclude the data directory from rendering as an example
+    - "!03_data"
 
-#toc: true
-#number-sections: true
-#bibliography: references.bib
+execute:
+  freeze: auto
+  warning: false
+  message: false
 
 format:
   html:
-    theme:
-      dark: darkly
-      light: flatly
-    #css: styles.css
     toc: true
-    number-sections: true
-    code-fold: true
-    code-tools: true
-    code-link: true
-    self-contained: false
+    comments:
+      hypothesis: true
+  docx: default
+  jats: default
+  #nature-pdf: default # you gotta add journal formats - need to add docs for this
+
+# add multiqc reports to website
+resources:
+  - "03_data/990_processed_data/001_snrnaseq/02_multiqc/01_set1_reads/fastqc_endo_10x_set1_reads.html"

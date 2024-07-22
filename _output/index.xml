@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <journal-meta>
+      <journal-id/>
+      <journal-title-group>
+        <journal-title>Some evil scientific journal who stole the
+copywrite</journal-title>
+      </journal-title-group>
+      <issn/>
+      <publisher>
+        <publisher-name/>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Awesome paper title</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">0000-0000-0000-0000</contrib-id>
+          <name>
+            <surname>Bloggs</surname>
+            <given-names>Joe</given-names>
+          </name>
+          <string-name>Joe Bloggs</string-name>
+          <degrees>PhD</degrees>
+          <email>super.realemail@somewhere.com</email>
+          <role degree-contribution="lead" vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">investigation</role>
+          <role degree-contribution="lead" vocab="https://credit.niso.org" vocab-term="formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">formal
+analysis</role>
+          <role degree-contribution="lead" vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">software</role>
+          <role degree-contribution="equal" vocab="https://credit.niso.org" vocab-term="writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing
+– original draft</role>
+          <role degree-contribution="lead" vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">visualization</role>
+          <role degree-contribution="lead" vocab="https://credit.niso.org" vocab-term="data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">data
+curation</role>
+          <xref ref-type="aff" rid="someuni">a</xref>
+          <xref ref-type="aff" rid="someotherplace">b</xref>
+          <xref ref-type="corresp" rid="cor-1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>author</surname>
+            <given-names>Another</given-names>
+          </name>
+          <string-name>Another author</string-name>
+          <degrees>PhD</degrees>
+          <xref ref-type="aff" rid="someotherplace">b</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="someuni">
+        <institution-wrap>
+          <institution>Somewhere Univserity</institution>
+        </institution-wrap>
+        <city>Somewhere</city>
+        <ext-link ext-link-type="uri" xlink:href="www.duckduckgo.com">www.duckduckgo.com</ext-link>
+      </aff>
+      <aff id="someotherplace">
+        <institution-wrap>
+          <institution>A different somewhere</institution>
+        </institution-wrap>
+        <ext-link ext-link-type="uri" xlink:href="www.duckduckgo.com">www.duckduckgo.com</ext-link>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1">super.realemail@somewhere.com</corresp>
+      </author-notes>
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-07-22">
+        <year>2024</year>
+        <month>7</month>
+        <day>22</day>
+      </pub-date>
+      <history/>
+      <abstract>
+        <p>My awesome science will cure this unpleasant disease and save the
+world somehow</p>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <kwd>Unpleasant disease</kwd>
+        <kwd>Saving the world</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec-intro">
+      <title>1. Introduction</title>
+      <p>Unpleasant disease sucks, see
+  <xref alt="Figure 1" rid="fig-awesome-plot">Figure 1</xref>.</p>
+      <p>We can have supplementary figures/tables too, with their own
+  numbering and everything, see
+  <xref alt="Figure S1" rid="suppfig-1">Figure S1</xref> &amp;
+  <xref alt="Table S1" rid="supptbl-example">Table S1</xref>.</p>
+      <fig id="fig-awesome-plot">
+        <caption>
+          <p>Figure 1: A cool figure showing important
+    stuff</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-awesome-plot-1.png"/>
+      </fig>
+      <p>We can cite other stuff too,
+  <ext-link ext-link-type="uri" xlink:href="www.quarto.org">Quarto</ext-link>
+  is pretty
+  neat!(<xref alt="Allaire et al. 2022" rid="ref-AllaireQuarto2022" ref-type="bibr">Allaire
+  et al. 2022</xref>)</p>
+      <p>We can even embed stuff plots and tables from other notebooks,
+  <xref alt="Figure 2" rid="fig-example">Figure 2</xref>! Notice how we
+  get a handy link to the source notebook for the chunk too!</p>
+      <fig id="fig-example">
+        <caption>
+          <p>Figure 2: Figure example</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/04_data_analysis-001_first_experiment_analysis-01_first-script-fig-example-output-1.png"/>
+      </fig>
+      <p>And here’s a table,
+  <xref alt="Table 1" rid="tbl-example-mtcars">Table 1</xref></p>
+      <fig id="tbl-example-mtcars">
+        <caption>
+          <p>Table 1: Table example</p>
+        </caption>
+        <table-wrap>
+          <table>
+            <thead>
+              <tr>
+                <th align="left">mpg</th>
+                <th align="left">cyl</th>
+                <th align="left">disp</th>
+                <th align="left">hp</th>
+                <th align="left">drat</th>
+                <th align="left">wt</th>
+                <th align="left">qsec</th>
+                <th align="left">vs</th>
+                <th align="left">am</th>
+                <th align="left">gear</th>
+                <th align="left">carb</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">26.0</td>
+                <td align="left">4</td>
+                <td align="left">120.3</td>
+                <td align="left">91</td>
+                <td align="left">4.43</td>
+                <td align="left">2.140</td>
+                <td align="left">16.7</td>
+                <td align="left">0</td>
+                <td align="left">1</td>
+                <td align="left">5</td>
+                <td align="left">2</td>
+              </tr>
+              <tr>
+                <td align="left">30.4</td>
+                <td align="left">4</td>
+                <td align="left">95.1</td>
+                <td align="left">113</td>
+                <td align="left">3.77</td>
+                <td align="left">1.513</td>
+                <td align="left">16.9</td>
+                <td align="left">1</td>
+                <td align="left">1</td>
+                <td align="left">5</td>
+                <td align="left">2</td>
+              </tr>
+              <tr>
+                <td align="left">15.8</td>
+                <td align="left">8</td>
+                <td align="left">351.0</td>
+                <td align="left">264</td>
+                <td align="left">4.22</td>
+                <td align="left">3.170</td>
+                <td align="left">14.5</td>
+                <td align="left">0</td>
+                <td align="left">1</td>
+                <td align="left">5</td>
+                <td align="left">4</td>
+              </tr>
+              <tr>
+                <td align="left">19.7</td>
+                <td align="left">6</td>
+                <td align="left">145.0</td>
+                <td align="left">175</td>
+                <td align="left">3.62</td>
+                <td align="left">2.770</td>
+                <td align="left">15.5</td>
+                <td align="left">0</td>
+                <td align="left">1</td>
+                <td align="left">5</td>
+                <td align="left">6</td>
+              </tr>
+              <tr>
+                <td align="left">15.0</td>
+                <td align="left">8</td>
+                <td align="left">301.0</td>
+                <td align="left">335</td>
+                <td align="left">3.54</td>
+                <td align="left">3.570</td>
+                <td align="left">14.6</td>
+                <td align="left">0</td>
+                <td align="left">1</td>
+                <td align="left">5</td>
+                <td align="left">8</td>
+              </tr>
+              <tr>
+                <td align="left">21.4</td>
+                <td align="left">4</td>
+                <td align="left">121.0</td>
+                <td align="left">109</td>
+                <td align="left">4.11</td>
+                <td align="left">2.780</td>
+                <td align="left">18.6</td>
+                <td align="left">1</td>
+                <td align="left">1</td>
+                <td align="left">4</td>
+                <td align="left">2</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+    </sec>
+    <sec id="sec-results">
+      <title>2. Results</title>
+      <p>I already put them in the introduction, what do you want from me?!
+  I can reference that section though
+  <xref alt="Section 1" rid="sec-intro">Section 1</xref>, so that’s
+  neat</p>
+      <sec id="some-particular-aspect-of-the-results">
+        <title>2.1 Some particular aspect of the results</title>
+        <p>We can have subsections too, isn’t this fun</p>
+      </sec>
+    </sec>
+    <sec id="sec-disc">
+      <title>3. Discussion</title>
+      <p>And R is pretty neat
+  too!(<xref alt="2024" rid="ref-base" ref-type="bibr">2024</xref>)</p>
+    </sec>
+    <sec id="supplementary-materials">
+      <title>4. Supplementary materials</title>
+      <fig id="suppfig-1">
+        <caption>
+          <p>Figure S1: A placeholder image</p>
+        </caption>
+        <graphic mimetype="image" mime-subtype="png" xlink:href="https://placehold.co/600x400.png"/>
+      </fig>
+      <p>And here a supplementary table</p>
+      <fig id="supptbl-example">
+        <caption>
+          <p>Table S1: And here’s a table caption.</p>
+        </caption>
+        <table-wrap>
+          <table>
+            <thead>
+              <tr>
+                <th id="mpg" scope="col">mpg</th>
+                <th id="cyl" scope="col">cyl</th>
+                <th id="disp" scope="col">disp</th>
+                <th id="hp" scope="col">hp</th>
+                <th id="drat" scope="col">drat</th>
+                <th id="wt" scope="col">wt</th>
+                <th id="qsec" scope="col">qsec</th>
+                <th id="vs" scope="col">vs</th>
+                <th id="am" scope="col">am</th>
+                <th id="gear" scope="col">gear</th>
+                <th id="carb" scope="col">carb</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td headers="mpg">21.0</td>
+                <td headers="cyl">6</td>
+                <td headers="disp">160</td>
+                <td headers="hp">110</td>
+                <td headers="drat">3.90</td>
+                <td headers="wt">2.620</td>
+                <td headers="qsec">16.46</td>
+                <td headers="vs">0</td>
+                <td headers="am">1</td>
+                <td headers="gear">4</td>
+                <td headers="carb">4</td>
+              </tr>
+              <tr>
+                <td headers="mpg">21.0</td>
+                <td headers="cyl">6</td>
+                <td headers="disp">160</td>
+                <td headers="hp">110</td>
+                <td headers="drat">3.90</td>
+                <td headers="wt">2.875</td>
+                <td headers="qsec">17.02</td>
+                <td headers="vs">0</td>
+                <td headers="am">1</td>
+                <td headers="gear">4</td>
+                <td headers="carb">4</td>
+              </tr>
+              <tr>
+                <td headers="mpg">22.8</td>
+                <td headers="cyl">4</td>
+                <td headers="disp">108</td>
+                <td headers="hp">93</td>
+                <td headers="drat">3.85</td>
+                <td headers="wt">2.320</td>
+                <td headers="qsec">18.61</td>
+                <td headers="vs">1</td>
+                <td headers="am">1</td>
+                <td headers="gear">4</td>
+                <td headers="carb">1</td>
+              </tr>
+              <tr>
+                <td headers="mpg">21.4</td>
+                <td headers="cyl">6</td>
+                <td headers="disp">258</td>
+                <td headers="hp">110</td>
+                <td headers="drat">3.08</td>
+                <td headers="wt">3.215</td>
+                <td headers="qsec">19.44</td>
+                <td headers="vs">1</td>
+                <td headers="am">0</td>
+                <td headers="gear">3</td>
+                <td headers="carb">1</td>
+              </tr>
+              <tr>
+                <td headers="mpg">18.7</td>
+                <td headers="cyl">8</td>
+                <td headers="disp">360</td>
+                <td headers="hp">175</td>
+                <td headers="drat">3.15</td>
+                <td headers="wt">3.440</td>
+                <td headers="qsec">17.02</td>
+                <td headers="vs">0</td>
+                <td headers="am">0</td>
+                <td headers="gear">3</td>
+                <td headers="carb">2</td>
+              </tr>
+              <tr>
+                <td headers="mpg">18.1</td>
+                <td headers="cyl">6</td>
+                <td headers="disp">225</td>
+                <td headers="hp">105</td>
+                <td headers="drat">2.76</td>
+                <td headers="wt">3.460</td>
+                <td headers="qsec">20.22</td>
+                <td headers="vs">1</td>
+                <td headers="am">0</td>
+                <td headers="gear">3</td>
+                <td headers="carb">1</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+      <fig id="supptbl-packages">
+        <caption>
+          <p>Table S2: A table with the packages used and their
+    versions</p>
+        </caption>
+        <table-wrap>
+          <table>
+            <thead>
+              <tr>
+                <th id="package" scope="col">package</th>
+                <th id="loadedversion" scope="col">loadedversion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2" id="CRANU0020U0028RU00204.4.0U0029" scope="colgroup">CRAN
+            (R 4.4.0)</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">R6</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">2.5.1</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">cli</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">3.6.3</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">digest</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">0.6.36</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">dplyr</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.1.4</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">evaluate</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">0.24.0</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">fansi</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.0.6</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">fastmap</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.2.0</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">generics</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">0.1.3</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">glue</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.7.0</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">gt</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">0.11.0</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">htmltools</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">0.5.8.1</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">jsonlite</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.8.8</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">knitr</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.48</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">lifecycle</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.0.4</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">magrittr</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">2.0.3</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">pillar</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.9.0</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">pkgconfig</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">2.0.3</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">renv</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">0.16.0</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">rlang</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.1.4</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">rmarkdown</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">2.27</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">sass</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">0.4.9</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">sessioninfo</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.2.2</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">tibble</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">3.2.1</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">tidyselect</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.2.1</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">utf8</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.2.4</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">vctrs</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">0.6.5</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">withr</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">3.0.0</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">xfun</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">0.46</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">xml2</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">1.3.6</td>
+              </tr>
+              <tr>
+                <td headers="CRAN (R 4.4.0)  package">yaml</td>
+                <td headers="CRAN (R 4.4.0)  loadedversion">2.3.9</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>5. References</title>
+      <ref id="ref-AllaireQuarto2022">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allaire</surname>
+              <given-names>J. J.</given-names>
+            </name>
+            <name>
+              <surname>Teague</surname>
+              <given-names>Charles</given-names>
+            </name>
+            <name>
+              <surname>Scheidegger</surname>
+              <given-names>Carlos</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>Yihui</given-names>
+            </name>
+            <name>
+              <surname>Dervieux</surname>
+              <given-names>Christophe</given-names>
+            </name>
+          </person-group>
+          <source>Quarto</source>
+          <year iso-8601-date="2022-01">2022</year>
+          <month>01</month>
+          <uri>https://github.com/quarto-dev/quarto-cli</uri>
+          <pub-id pub-id-type="doi">10.5281/zenodo.5960048</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="ref-base">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <given-names>R Core Team</given-names>
+            </name>
+          </person-group>
+          <article-title>R: A language and environment for statistical computing</article-title>
+          <year iso-8601-date="2024">2024</year>
+          <uri>https://www.R-project.org/</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <sub-article article-type="notebook" id="nb-10-nb-article">
+    <front-stub>
+      <title-group>
+        <article-title>Awesome paper title</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">0000-0000-0000-0000</contrib-id>
+          <name>
+            <surname>Bloggs</surname>
+            <given-names>Joe</given-names>
+          </name>
+          <string-name>Joe Bloggs</string-name>
+          <degrees>PhD</degrees>
+          <email>super.realemail@somewhere.com</email>
+          <role degree-contribution="lead" vocab="https://credit.niso.org" vocab-term="investigation" vocab-term-identifier="https://credit.niso.org/contributor-roles/investigation/">investigation</role>
+          <role degree-contribution="lead" vocab="https://credit.niso.org" vocab-term="formal analysis" vocab-term-identifier="https://credit.niso.org/contributor-roles/formal-analysis/">formal
+analysis</role>
+          <role degree-contribution="lead" vocab="https://credit.niso.org" vocab-term="software" vocab-term-identifier="https://credit.niso.org/contributor-roles/software/">software</role>
+          <role degree-contribution="equal" vocab="https://credit.niso.org" vocab-term="writing – original draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-original-draft/">writing
+– original draft</role>
+          <role degree-contribution="lead" vocab="https://credit.niso.org" vocab-term="visualization" vocab-term-identifier="https://credit.niso.org/contributor-roles/visualization/">visualization</role>
+          <role degree-contribution="lead" vocab="https://credit.niso.org" vocab-term="data curation" vocab-term-identifier="https://credit.niso.org/contributor-roles/data-curation/">data
+curation</role>
+          <xref ref-type="aff" rid="someuni-nb-article">a</xref>
+          <xref ref-type="aff" rid="someotherplace-nb-article">b</xref>
+          <xref ref-type="corresp" rid="cor-1-nb-article">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>author</surname>
+            <given-names>Another</given-names>
+          </name>
+          <string-name>Another author</string-name>
+          <degrees>PhD</degrees>
+          <xref ref-type="aff" rid="someotherplace-nb-article">b</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="someuni-nb-article">
+        <institution-wrap>
+          <institution>Somewhere Univserity</institution>
+        </institution-wrap>
+        <city>Somewhere</city>
+        <ext-link ext-link-type="uri" xlink:href="www.duckduckgo.com">www.duckduckgo.com</ext-link>
+      </aff>
+      <aff id="someotherplace-nb-article">
+        <institution-wrap>
+          <institution>A different somewhere</institution>
+        </institution-wrap>
+        <ext-link ext-link-type="uri" xlink:href="www.duckduckgo.com">www.duckduckgo.com</ext-link>
+      </aff>
+      <author-notes>
+        <corresp id="cor-1-nb-article">super.realemail@somewhere.com</corresp>
+      </author-notes>
+      <abstract>
+        <p>My awesome science will cure this unpleasant disease and save the
+world somehow</p>
+      </abstract>
+    </front-stub>
+    <body>
+      <sec specific-use="notebook-content">
+        <code language="r script">library(dplyr)</code>
+        <boxed-text>
+          <preformat>
+Attaching package: 'dplyr'</preformat>
+        </boxed-text>
+        <boxed-text>
+          <preformat>The following objects are masked from 'package:stats':
+
+    filter, lag</preformat>
+        </boxed-text>
+        <boxed-text>
+          <preformat>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</preformat>
+        </boxed-text>
+      </sec>
+      <sec id="sec-intro-nb-article">
+        <title>1. Introduction</title>
+        <p>Unpleasant disease sucks, see
+  <xref alt="Figure 1" rid="fig-awesome-plot-nb-article">Figure 1</xref>.</p>
+        <p>We can have supplementary figures/tables too, with their own
+  numbering and everything, see
+  <xref alt="Figure S1" rid="suppfig-1-nb-article">Figure S1</xref> &amp;
+  <xref alt="Table S1" rid="supptbl-example-nb-article">Table S1</xref>.</p>
+        <sec id="cell-fig-awesome-plot-nb-article" specific-use="notebook-content">
+          <code language="r script">plot(mtcars$mpg, mtcars$hp)</code>
+          <fig id="fig-awesome-plot-nb-article">
+            <caption>
+              <p>Figure 1: A cool figure showing important
+    stuff</p>
+            </caption>
+            <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-awesome-plot-1.png"/>
+          </fig>
+        </sec>
+        <p>We can cite other stuff too,
+  <ext-link ext-link-type="uri" xlink:href="www.quarto.org">Quarto</ext-link>
+  is pretty
+  neat!(<xref alt="Allaire et al. 2022" rid="ref-AllaireQuarto2022-nb-article" ref-type="bibr">Allaire
+  et al. 2022</xref>)</p>
+        <p>We can even embed stuff plots and tables from other notebooks,
+  <xref alt="Figure 2" rid="fig-example-nb-article">Figure 2</xref>! Notice how we
+  get a handy link to the source notebook for the chunk too!</p>
+        <sec id="cell-fig-example-nb-article" specific-use="notebook-content">
+          <code language="python">plot(cars$speed, cars$dist)</code>
+          <boxed-text>
+            <fig id="fig-example-nb-article">
+              <caption>
+                <p>Figure 2: Figure example</p>
+              </caption>
+              <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/04_data_analysis-001_first_experiment_analysis-01_first-script-fig-example-output-1.png"/>
+            </fig>
+          </boxed-text>
+        </sec>
+        <p>And here’s a table,
+  <xref alt="Table 1" rid="tbl-example-mtcars-nb-article">Table 1</xref></p>
+        <sec specific-use="notebook-content">
+          <code language="python">gt::gt(tail(mtcars))</code>
+          <fig id="tbl-example-mtcars-nb-article">
+            <caption>
+              <p>Table 1: Table example</p>
+            </caption>
+            <boxed-text>
+              <table-wrap>
+                <table>
+                  <thead>
+                    <tr>
+                      <th align="left">mpg</th>
+                      <th align="left">cyl</th>
+                      <th align="left">disp</th>
+                      <th align="left">hp</th>
+                      <th align="left">drat</th>
+                      <th align="left">wt</th>
+                      <th align="left">qsec</th>
+                      <th align="left">vs</th>
+                      <th align="left">am</th>
+                      <th align="left">gear</th>
+                      <th align="left">carb</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td align="left">26.0</td>
+                      <td align="left">4</td>
+                      <td align="left">120.3</td>
+                      <td align="left">91</td>
+                      <td align="left">4.43</td>
+                      <td align="left">2.140</td>
+                      <td align="left">16.7</td>
+                      <td align="left">0</td>
+                      <td align="left">1</td>
+                      <td align="left">5</td>
+                      <td align="left">2</td>
+                    </tr>
+                    <tr>
+                      <td align="left">30.4</td>
+                      <td align="left">4</td>
+                      <td align="left">95.1</td>
+                      <td align="left">113</td>
+                      <td align="left">3.77</td>
+                      <td align="left">1.513</td>
+                      <td align="left">16.9</td>
+                      <td align="left">1</td>
+                      <td align="left">1</td>
+                      <td align="left">5</td>
+                      <td align="left">2</td>
+                    </tr>
+                    <tr>
+                      <td align="left">15.8</td>
+                      <td align="left">8</td>
+                      <td align="left">351.0</td>
+                      <td align="left">264</td>
+                      <td align="left">4.22</td>
+                      <td align="left">3.170</td>
+                      <td align="left">14.5</td>
+                      <td align="left">0</td>
+                      <td align="left">1</td>
+                      <td align="left">5</td>
+                      <td align="left">4</td>
+                    </tr>
+                    <tr>
+                      <td align="left">19.7</td>
+                      <td align="left">6</td>
+                      <td align="left">145.0</td>
+                      <td align="left">175</td>
+                      <td align="left">3.62</td>
+                      <td align="left">2.770</td>
+                      <td align="left">15.5</td>
+                      <td align="left">0</td>
+                      <td align="left">1</td>
+                      <td align="left">5</td>
+                      <td align="left">6</td>
+                    </tr>
+                    <tr>
+                      <td align="left">15.0</td>
+                      <td align="left">8</td>
+                      <td align="left">301.0</td>
+                      <td align="left">335</td>
+                      <td align="left">3.54</td>
+                      <td align="left">3.570</td>
+                      <td align="left">14.6</td>
+                      <td align="left">0</td>
+                      <td align="left">1</td>
+                      <td align="left">5</td>
+                      <td align="left">8</td>
+                    </tr>
+                    <tr>
+                      <td align="left">21.4</td>
+                      <td align="left">4</td>
+                      <td align="left">121.0</td>
+                      <td align="left">109</td>
+                      <td align="left">4.11</td>
+                      <td align="left">2.780</td>
+                      <td align="left">18.6</td>
+                      <td align="left">1</td>
+                      <td align="left">1</td>
+                      <td align="left">4</td>
+                      <td align="left">2</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </table-wrap>
+            </boxed-text>
+          </fig>
+        </sec>
+      </sec>
+      <sec id="sec-results-nb-article">
+        <title>2. Results</title>
+        <p>I already put them in the introduction, what do you want from me?!
+  I can reference that section though
+  <xref alt="Section 1" rid="sec-intro-nb-article">Section 1</xref>, so that’s
+  neat</p>
+        <sec id="some-particular-aspect-of-the-results-nb-article">
+          <title>2.1 Some particular aspect of the results</title>
+          <p>We can have subsections too, isn’t this fun</p>
+        </sec>
+      </sec>
+      <sec id="sec-disc-nb-article">
+        <title>3. Discussion</title>
+        <p>And R is pretty neat
+  too!(<xref alt="2024" rid="ref-base-nb-article" ref-type="bibr">2024</xref>)</p>
+      </sec>
+      <sec id="supplementary-materials-nb-article">
+        <title>4. Supplementary materials</title>
+        <fig id="suppfig-1-nb-article">
+          <caption>
+            <p>Figure S1: A placeholder image</p>
+          </caption>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="https://placehold.co/600x400.png"/>
+        </fig>
+        <p>And here a supplementary table</p>
+        <fig id="supptbl-example-nb-article">
+          <caption>
+            <p>Table S1: And here’s a table caption.</p>
+          </caption>
+          <sec specific-use="notebook-content">
+            <code language="r script">gt::gt(head(mtcars))</code>
+            <table-wrap>
+              <table>
+                <thead>
+                  <tr>
+                    <th id="mpg-nb-article" scope="col">mpg</th>
+                    <th id="cyl-nb-article" scope="col">cyl</th>
+                    <th id="disp-nb-article" scope="col">disp</th>
+                    <th id="hp-nb-article" scope="col">hp</th>
+                    <th id="drat-nb-article" scope="col">drat</th>
+                    <th id="wt-nb-article" scope="col">wt</th>
+                    <th id="qsec-nb-article" scope="col">qsec</th>
+                    <th id="vs-nb-article" scope="col">vs</th>
+                    <th id="am-nb-article" scope="col">am</th>
+                    <th id="gear-nb-article" scope="col">gear</th>
+                    <th id="carb-nb-article" scope="col">carb</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td headers="mpg">21.0</td>
+                    <td headers="cyl">6</td>
+                    <td headers="disp">160</td>
+                    <td headers="hp">110</td>
+                    <td headers="drat">3.90</td>
+                    <td headers="wt">2.620</td>
+                    <td headers="qsec">16.46</td>
+                    <td headers="vs">0</td>
+                    <td headers="am">1</td>
+                    <td headers="gear">4</td>
+                    <td headers="carb">4</td>
+                  </tr>
+                  <tr>
+                    <td headers="mpg">21.0</td>
+                    <td headers="cyl">6</td>
+                    <td headers="disp">160</td>
+                    <td headers="hp">110</td>
+                    <td headers="drat">3.90</td>
+                    <td headers="wt">2.875</td>
+                    <td headers="qsec">17.02</td>
+                    <td headers="vs">0</td>
+                    <td headers="am">1</td>
+                    <td headers="gear">4</td>
+                    <td headers="carb">4</td>
+                  </tr>
+                  <tr>
+                    <td headers="mpg">22.8</td>
+                    <td headers="cyl">4</td>
+                    <td headers="disp">108</td>
+                    <td headers="hp">93</td>
+                    <td headers="drat">3.85</td>
+                    <td headers="wt">2.320</td>
+                    <td headers="qsec">18.61</td>
+                    <td headers="vs">1</td>
+                    <td headers="am">1</td>
+                    <td headers="gear">4</td>
+                    <td headers="carb">1</td>
+                  </tr>
+                  <tr>
+                    <td headers="mpg">21.4</td>
+                    <td headers="cyl">6</td>
+                    <td headers="disp">258</td>
+                    <td headers="hp">110</td>
+                    <td headers="drat">3.08</td>
+                    <td headers="wt">3.215</td>
+                    <td headers="qsec">19.44</td>
+                    <td headers="vs">1</td>
+                    <td headers="am">0</td>
+                    <td headers="gear">3</td>
+                    <td headers="carb">1</td>
+                  </tr>
+                  <tr>
+                    <td headers="mpg">18.7</td>
+                    <td headers="cyl">8</td>
+                    <td headers="disp">360</td>
+                    <td headers="hp">175</td>
+                    <td headers="drat">3.15</td>
+                    <td headers="wt">3.440</td>
+                    <td headers="qsec">17.02</td>
+                    <td headers="vs">0</td>
+                    <td headers="am">0</td>
+                    <td headers="gear">3</td>
+                    <td headers="carb">2</td>
+                  </tr>
+                  <tr>
+                    <td headers="mpg">18.1</td>
+                    <td headers="cyl">6</td>
+                    <td headers="disp">225</td>
+                    <td headers="hp">105</td>
+                    <td headers="drat">2.76</td>
+                    <td headers="wt">3.460</td>
+                    <td headers="qsec">20.22</td>
+                    <td headers="vs">1</td>
+                    <td headers="am">0</td>
+                    <td headers="gear">3</td>
+                    <td headers="carb">1</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </sec>
+        </fig>
+        <fig id="supptbl-packages-nb-article">
+          <caption>
+            <p>Table S2: A table with the packages used and their
+    versions</p>
+          </caption>
+          <sec specific-use="notebook-content">
+            <code language="r script"># Get session information
+session_info &lt;- sessioninfo::session_info()
+
+# Extract package information
+package_info &lt;- session_info$packages %&gt;%
+  dplyr::select(package, loadedversion, source) %&gt;%
+  dplyr::arrange(package)
+
+# Convert to a data frame
+package_df &lt;- as.data.frame(package_info)
+# Print table
+package_df |&gt;
+  dplyr::group_by(source) |&gt;
+  gt::gt()</code>
+            <table-wrap>
+              <table>
+                <thead>
+                  <tr>
+                    <th id="package-nb-article" scope="col">package</th>
+                    <th id="loadedversion-nb-article" scope="col">loadedversion</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="2" id="CRANU0020U0028RU00204.4.0U0029-nb-article" scope="colgroup">CRAN
+            (R 4.4.0)</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">R6</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">2.5.1</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">cli</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">3.6.3</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">digest</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">0.6.36</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">dplyr</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.1.4</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">evaluate</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">0.24.0</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">fansi</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.0.6</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">fastmap</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.2.0</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">generics</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">0.1.3</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">glue</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.7.0</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">gt</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">0.11.0</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">htmltools</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">0.5.8.1</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">jsonlite</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.8.8</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">knitr</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.48</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">lifecycle</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.0.4</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">magrittr</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">2.0.3</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">pillar</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.9.0</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">pkgconfig</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">2.0.3</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">renv</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">0.16.0</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">rlang</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.1.4</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">rmarkdown</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">2.27</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">sass</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">0.4.9</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">sessioninfo</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.2.2</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">tibble</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">3.2.1</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">tidyselect</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.2.1</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">utf8</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.2.4</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">vctrs</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">0.6.5</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">withr</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">3.0.0</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">xfun</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">0.46</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">xml2</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">1.3.6</td>
+                  </tr>
+                  <tr>
+                    <td headers="CRAN (R 4.4.0)  package">yaml</td>
+                    <td headers="CRAN (R 4.4.0)  loadedversion">2.3.9</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </sec>
+        </fig>
+      </sec>
+    </body>
+    <back>
+      <ref-list>
+        <title>5. References</title>
+        <ref id="ref-AllaireQuarto2022-nb-article">
+          <element-citation publication-type="book">
+            <person-group person-group-type="author">
+              <name>
+                <surname>Allaire</surname>
+                <given-names>J. J.</given-names>
+              </name>
+              <name>
+                <surname>Teague</surname>
+                <given-names>Charles</given-names>
+              </name>
+              <name>
+                <surname>Scheidegger</surname>
+                <given-names>Carlos</given-names>
+              </name>
+              <name>
+                <surname>Xie</surname>
+                <given-names>Yihui</given-names>
+              </name>
+              <name>
+                <surname>Dervieux</surname>
+                <given-names>Christophe</given-names>
+              </name>
+            </person-group>
+            <source>Quarto</source>
+            <year iso-8601-date="2022-01">2022</year>
+            <month>01</month>
+            <uri>https://github.com/quarto-dev/quarto-cli</uri>
+            <pub-id pub-id-type="doi">10.5281/zenodo.5960048</pub-id>
+          </element-citation>
+        </ref>
+        <ref id="ref-base-nb-article">
+          <element-citation publication-type="article-journal">
+            <person-group person-group-type="author">
+              <name>
+                <given-names>R Core Team</given-names>
+              </name>
+            </person-group>
+            <article-title>R: A language and environment for statistical computing</article-title>
+            <year iso-8601-date="2024">2024</year>
+            <uri>https://www.R-project.org/</uri>
+          </element-citation>
+        </ref>
+      </ref-list>
+    </back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-3-nb-1">
+    <front-stub>
+      <title-group>
+        <article-title>Example first stage in a R pipeline</article-title>
+      </title-group>
+    </front-stub>
+    <body>
+      <sec id="read-in-data-nb-1">
+        <title>Read in data</title>
+        <p>Here is some prose. Maybe you’d read in data and do some basic data
+  wrangling here.</p>
+        <sec specific-use="notebook-content">
+          <code language="r script">gt::gt(tail(mtcars))
+  </code>
+          <fig id="tbl-example-mtcars-nb-1">
+            <caption>
+              <p>Table example</p>
+            </caption>
+            <table-wrap>
+              <table>
+                <thead>
+                  <tr>
+                    <th id="mpg-nb-1" scope="col">mpg</th>
+                    <th id="cyl-nb-1" scope="col">cyl</th>
+                    <th id="disp-nb-1" scope="col">disp</th>
+                    <th id="hp-nb-1" scope="col">hp</th>
+                    <th id="drat-nb-1" scope="col">drat</th>
+                    <th id="wt-nb-1" scope="col">wt</th>
+                    <th id="qsec-nb-1" scope="col">qsec</th>
+                    <th id="vs-nb-1" scope="col">vs</th>
+                    <th id="am-nb-1" scope="col">am</th>
+                    <th id="gear-nb-1" scope="col">gear</th>
+                    <th id="carb-nb-1" scope="col">carb</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td headers="mpg">26.0</td>
+                    <td headers="cyl">4</td>
+                    <td headers="disp">120.3</td>
+                    <td headers="hp">91</td>
+                    <td headers="drat">4.43</td>
+                    <td headers="wt">2.140</td>
+                    <td headers="qsec">16.7</td>
+                    <td headers="vs">0</td>
+                    <td headers="am">1</td>
+                    <td headers="gear">5</td>
+                    <td headers="carb">2</td>
+                  </tr>
+                  <tr>
+                    <td headers="mpg">30.4</td>
+                    <td headers="cyl">4</td>
+                    <td headers="disp">95.1</td>
+                    <td headers="hp">113</td>
+                    <td headers="drat">3.77</td>
+                    <td headers="wt">1.513</td>
+                    <td headers="qsec">16.9</td>
+                    <td headers="vs">1</td>
+                    <td headers="am">1</td>
+                    <td headers="gear">5</td>
+                    <td headers="carb">2</td>
+                  </tr>
+                  <tr>
+                    <td headers="mpg">15.8</td>
+                    <td headers="cyl">8</td>
+                    <td headers="disp">351.0</td>
+                    <td headers="hp">264</td>
+                    <td headers="drat">4.22</td>
+                    <td headers="wt">3.170</td>
+                    <td headers="qsec">14.5</td>
+                    <td headers="vs">0</td>
+                    <td headers="am">1</td>
+                    <td headers="gear">5</td>
+                    <td headers="carb">4</td>
+                  </tr>
+                  <tr>
+                    <td headers="mpg">19.7</td>
+                    <td headers="cyl">6</td>
+                    <td headers="disp">145.0</td>
+                    <td headers="hp">175</td>
+                    <td headers="drat">3.62</td>
+                    <td headers="wt">2.770</td>
+                    <td headers="qsec">15.5</td>
+                    <td headers="vs">0</td>
+                    <td headers="am">1</td>
+                    <td headers="gear">5</td>
+                    <td headers="carb">6</td>
+                  </tr>
+                  <tr>
+                    <td headers="mpg">15.0</td>
+                    <td headers="cyl">8</td>
+                    <td headers="disp">301.0</td>
+                    <td headers="hp">335</td>
+                    <td headers="drat">3.54</td>
+                    <td headers="wt">3.570</td>
+                    <td headers="qsec">14.6</td>
+                    <td headers="vs">0</td>
+                    <td headers="am">1</td>
+                    <td headers="gear">5</td>
+                    <td headers="carb">8</td>
+                  </tr>
+                  <tr>
+                    <td headers="mpg">21.4</td>
+                    <td headers="cyl">4</td>
+                    <td headers="disp">121.0</td>
+                    <td headers="hp">109</td>
+                    <td headers="drat">4.11</td>
+                    <td headers="wt">2.780</td>
+                    <td headers="qsec">18.6</td>
+                    <td headers="vs">1</td>
+                    <td headers="am">1</td>
+                    <td headers="gear">4</td>
+                    <td headers="carb">2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </fig>
+        </sec>
+        <sec id="cell-fig-example-nb-1" specific-use="notebook-content">
+          <code language="r script">plot(cars$speed, cars$dist)
+  </code>
+          <fig id="fig-example-nb-1">
+            <caption>
+              <p>Figure example</p>
+            </caption>
+            <graphic mimetype="image" mime-subtype="png" xlink:href="01_first-script_files/figure-jats/fig-example-1.png"/>
+          </fig>
+        </sec>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
+  <sub-article article-type="notebook" id="nb-7-nb-2">
+    <front-stub>
+      <title-group>
+        <article-title>Example second stage in a R pipeline</article-title>
+      </title-group>
+    </front-stub>
+    <body>
+      <sec id="apply-qc-nb-2">
+        <title>Apply QC</title>
+        <p>Here is some prose. Maybe you’d do some QC here.</p>
+        <sec specific-use="notebook-content">
+          <code language="r script">gt::gt(head(cars))
+  </code>
+          <fig id="tbl-example-cars-nb-2">
+            <caption>
+              <p>Table example again</p>
+            </caption>
+            <table-wrap>
+              <table>
+                <thead>
+                  <tr>
+                    <th id="speed-nb-2" scope="col">speed</th>
+                    <th id="dist-nb-2" scope="col">dist</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td headers="speed">4</td>
+                    <td headers="dist">2</td>
+                  </tr>
+                  <tr>
+                    <td headers="speed">4</td>
+                    <td headers="dist">10</td>
+                  </tr>
+                  <tr>
+                    <td headers="speed">7</td>
+                    <td headers="dist">4</td>
+                  </tr>
+                  <tr>
+                    <td headers="speed">7</td>
+                    <td headers="dist">22</td>
+                  </tr>
+                  <tr>
+                    <td headers="speed">8</td>
+                    <td headers="dist">16</td>
+                  </tr>
+                  <tr>
+                    <td headers="speed">9</td>
+                    <td headers="dist">10</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </fig>
+        </sec>
+        <sec id="cell-fig-example-iris-nb-2" specific-use="notebook-content">
+          <code language="r script">plot(iris$Petal.Length, iris$Petal.Width)
+  </code>
+          <fig id="fig-example-iris-nb-2">
+            <caption>
+              <p>Figure example again</p>
+            </caption>
+            <graphic mimetype="image" mime-subtype="png" xlink:href="02_second-script_files/figure-jats/fig-example-iris-1.png"/>
+          </fig>
+        </sec>
+        <p>See @fig-example-iris and @tbl-example-cars</p>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
+</article>

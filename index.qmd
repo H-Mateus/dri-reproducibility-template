@@ -1,0 +1,143 @@
+---
+title: Awesome paper title
+author:
+  - name: "Joe Bloggs"
+    orcid: 0000-0000-0000-0000
+    corresponding: true
+    email: super.realemail@somewhere.com
+    role:
+      - investigation: lead
+      - formal analysis: lead
+      - software: lead
+      - writing – original draft: equal
+      - visualization: lead
+      - data curation: lead
+    affiliations: 
+      - ref: someuni
+      - ref: someotherplace
+    degrees: 
+      - PhD
+  - name: Another author
+    affiliations: 
+      - ref: someotherplace
+    degrees: 
+      - PhD
+    corresponding: false
+    roles: []
+affiliations:
+  - id: someuni
+    name: Somewhere Univserity
+    city: Somewhere
+    url: www.duckduckgo.com
+  - id: someotherplace
+    name: A different somewhere
+    url: www.duckduckgo.com
+keywords:
+  - Unpleasant disease
+  - Saving the world
+abstract: |
+  My awesome science will cure this unpleasant disease and save the world somehow
+plain-language-summary: |
+  I dunno how to make that more lay...
+key-points:
+  - Uncovered the cause of unpleasant disease
+  - Cured it
+  - Saved the world
+date: last-modified
+bibliography: references.bib
+citation:
+  container-title: Some evil scientific journal who stole the copywrite
+number-sections: true
+crossref:
+  custom:
+    - kind: float
+      key: suppfig
+      latex-env: suppfig
+      reference-prefix: Figure S
+      space-before-numbering: false
+      latex-list-of-description: Supplementary Figure
+    - kind: float
+      key: supptbl
+      latex-env: suppfig
+      reference-prefix: Table S
+      space-before-numbering: false
+      latex-list-of-description: Supplementary Table
+---
+
+```{r}
+#| label: load packages
+#| include: false
+
+library(dplyr)
+```
+
+# Introduction {#sec-intro}
+
+Unpleasant disease sucks, see @fig-awesome-plot.
+
+We can have supplementary figures/tables too, with their own numbering and everything, see @suppfig-1 & @supptbl-example.
+
+```{r}
+#| label: fig-awesome-plot
+#| fig-cap: A cool figure showing important stuff
+plot(mtcars$mpg, mtcars$hp)
+```
+
+We can cite other stuff too, [Quarto](www.quarto.org) is pretty neat![@AllaireQuarto2022]
+
+We can even embed stuff plots and tables from other notebooks, @fig-example!
+Notice how we get a handy link to the source notebook for the chunk too!
+
+{{< embed 04_data_analysis/001_first_experiment_analysis/01_first-script.qmd#fig-example >}}
+
+And here's a table, @tbl-example2
+
+{{< embed 04_data_analysis/001_first_experiment_analysis/01_first-script.qmd#tbl-example2 >}}
+
+# Results {#sec-results}
+
+I already put them in the introduction, what do you want from me?!
+I can reference that section though @sec-intro, so that's neat
+
+## Some particular aspect of the results
+
+We can have subsections too, isn't this fun
+
+# Discussion {#sec-disc}
+
+And R is pretty neat too![@base]
+
+# Supplementary materials
+
+![A placeholder image](https://placehold.co/600x400.png){#suppfig-1 key="suppfig"}
+
+And here a supplementary table
+
+::: {#supptbl-example}
+```{r}
+gt::gt(head(mtcars))
+```
+
+And here's a table caption.
+:::
+
+::: {#supptbl-packages}
+```{r}
+# Get session information
+session_info <- sessioninfo::session_info()
+
+# Extract package information
+package_info <- session_info$packages %>%
+  dplyr::select(package, loadedversion, source) %>%
+  dplyr::arrange(package)
+
+# Convert to a data frame
+package_df <- as.data.frame(package_info)
+# Print table
+package_df |>
+  dplyr::group_by(source) |>
+  gt::gt()
+```
+
+A table with the packages used and their versions
+:::

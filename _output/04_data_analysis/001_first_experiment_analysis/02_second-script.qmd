@@ -1,0 +1,22 @@
+---
+title: Example second stage in a R pipeline
+---
+
+# Apply QC
+
+Here is some prose.
+Maybe you'd do some QC here.
+
+```{r}
+#| label: tbl-example-cars
+#| tbl-cap: Table example again
+gt::gt(head(cars))
+```
+
+```{r}
+#| label: fig-example-iris
+#| fig-cap: Figure example again
+plot(iris$Petal.Length, iris$Petal.Width)
+```
+
+See @fig-example-iris and @tbl-example-cars
